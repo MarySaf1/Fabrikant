@@ -98,10 +98,10 @@ try:
                                         value='(//a[@class="btn btn-raised btn-organizer"])[2]')
     WebDriver.execute_script("window.scrollTo(document.body.scrollHeight, 0);", upload_doc)
     upload_doc.click()
-    # получаем путь к директории текущего исполняемого скрипта lesson2_7.py
+    # получаем путь к директории текущего исполняемого скрипта
     current_dir = os.path.abspath(os.path.dirname(__file__))
     # имя файла, который будем загружать на сайт
-    file_name = "../forautotest/file_example.txt"
+    file_name = "file_example.txt"
     # получаем путь к file_example.txt
     file_path = os.path.join(current_dir, file_name)
 
@@ -117,6 +117,6 @@ try:
 
 finally:
     # ожидание чтобы визуально оценить результаты прохождения скрипта
-    time.sleep(10)
+    time.sleep(30)
     # закрываем браузер после всех манипуляций
     WebDriver.quit()
