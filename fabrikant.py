@@ -7,10 +7,16 @@ import os
 link = "https://admin20.fabrikant.ru/login"
 link2 = "https://test.fabrikant.ru/private-office/"
 
-try:
-    WebDriver = webdriver.Chrome(executable_path=r'C:\Windows\SysWOW64\chromedriver.exe')
+
+def open_browser():
+    global WebDriver
+    WebDriver = webdriver.Chrome(executable_path=r'C:\chromedriver.exe')
     WebDriver.set_window_size(1920, 1080)
     WebDriver.get(link2)
+
+
+def login_fabr():
+    global login, password
     login = WebDriver.find_element(by=By.XPATH, value='//input[@name="login[username]"]')
     login.click()
     login.send_keys('fabrikant')
@@ -20,6 +26,10 @@ try:
     submit0 = WebDriver.find_element(by=By.XPATH, value='//button[@type="submit"]')
     submit0.click()
     time.sleep(5)
+
+
+def login_admin():
+    global login, password
     WebDriver.get(link)
     time.sleep(2)
     login = WebDriver.find_element(by=By.XPATH, value="//input[@name='login']")
@@ -33,6 +43,14 @@ try:
     submit1.click()
     time.sleep(3)
 
+
+try:
+    # открываем браузер
+    open_browser()
+    login_fabr()
+    # вход в админку
+    login_admin()
+    # найти шаблон и кликнуть на создать процедуру
     create_procedure = WebDriver.find_element(by=By.XPATH, value='//*[@id="nav"]/li[15]/a')
     create_procedure.click()
     template_proc = WebDriver.find_element(by=By.XPATH, value='//*[@id="nav"]/li[15]/ul/li/a')
@@ -43,7 +61,7 @@ try:
     input_num.send_keys('600001\n')
     create_procedure = WebDriver.find_element(by=By.XPATH, value='.//*[text()="Создать процедуру"]')
     create_procedure.click()
-
+    # открываем дебаг панель и кликаем заполнить извещение
     debug = WebDriver.find_element(by=By.XPATH, value='//*[@id="top-menu-2"]/ul[1]/li[8]/a')
     debug.click()
     time.sleep(2)
@@ -52,6 +70,7 @@ try:
     select_name = Select(
         WebDriver.find_element(by=By.XPATH, value='//select[@name="procedure_participant_info_visibility"]'))
     # WebDriver.execute_script("return arguments[0].scrollIntoView(true);", select1)
+    # заполняем выпадашки и чекбоксы
     select_name.select_by_value('self')
     select_cost = Select(WebDriver.find_element(by=By.XPATH,
                                                 value='//select[@name="procedure_participant_price_visibility"]'))
@@ -72,12 +91,13 @@ try:
     # select_withnds_lot = Select(WebDriver.find_element(by=By.XPATH,
     #                                                    value='/html/body/div[1]/div/div[2]/div[2]/div[1]/form/div/div[1]/div[1]/div/div/select'))
     # select_withnds_lot.select_by_value('compare_with_nds')
-
+    # добавляем позицию
     add_goods = WebDriver.find_element(by=By.NAME, value='saveAndAddPositions')
     add_goods.click()
     add_position = WebDriver.find_element(by=By.XPATH,
                                           value='(//a[@class="btn btn-raised btn-organizer"])[1]')
     add_position.click()
+    # заполняем автоматом из дебагера проставляем ндс
     izv = WebDriver.find_element(by=By.XPATH, value='//a[@name="fill_dates"]')
     izv.click()
     select_nds = Select(WebDriver.find_element(by=By.XPATH,
@@ -91,6 +111,7 @@ try:
 
     put_sum_to_lot_price = WebDriver.find_element(by=By.NAME, value='put_sum_to_lot_price')
     put_sum_to_lot_price.click()
+    # возврат в лот
     return_lot = WebDriver.find_element(by=By.XPATH,
                                         value='(//a[@class="btn btn-raised btn-organizer"])[3]')
     return_lot.click()
