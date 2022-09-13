@@ -1,17 +1,17 @@
 <ns0:purchaseNoticeZPESMBO xmlns:ns0="http://zakupki.gov.ru/223fz/purchase/1" xmlns:ns2="http://zakupki.gov.ru/223fz/types/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://zakupki.gov.ru/223/integration/schema/TFF-11.3 https://zakupki.gov.ru/223/integration/schema/TFF-11.3/purchase.xsd">
     <ns2:header>
-        <ns2:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns2:guid>
+        <ns2:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns2:guid>
         <ns2:createDateTime>2021-11-18T13:15:01</ns2:createDateTime>
     </ns2:header>
     <ns0:body>
         <ns0:item>
-            <ns2:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns2:guid>
+            <ns2:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns2:guid>
             <ns0:purchaseNoticeZPESMBOData>
-                <ns0:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns0:guid>
-                <ns0:createDateTime>2022-08-25T14:45:00</ns0:createDateTime>
+                <ns0:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns0:guid>
+                <ns0:createDateTime>2022-09-13T14:30:41</ns0:createDateTime>
                 <ns0:urlEIS>https://lk.eis4.roskazna.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=333844</ns0:urlEIS>
-                <ns0:registrationNumber>24074948474</ns0:registrationNumber>
-                <ns0:name>ROSATOM &#8470;261</ns0:name>
+                <ns0:registrationNumber>25752842907</ns0:registrationNumber>
+                <ns0:name>ROSATOM &#8470;174</ns0:name>
                 <ns0:customer>
                     <ns2:mainInfo>
                         <ns2:fullName>&#1054;&#1040;&#1054; "&#1040;&#1090;&#1086;&#1084;&#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;"</ns2:fullName>
@@ -66,7 +66,7 @@
                     <ns2:phone>+7 (999) 9999999</ns2:phone>
                     <ns2:email>vfsv@yhnhmf.ru</ns2:email>
                 </ns0:contact>
-                <ns0:publicationDateTime>2022-08-25T14:45:00</ns0:publicationDateTime>
+                <ns0:publicationDateTime>2022-09-13T14:30:41</ns0:publicationDateTime>
                 <ns0:documentationDelivery>
                     <ns2:deliveryStartDateTime>2021-11-18</ns2:deliveryStartDateTime>
                     <ns2:deliveryEndDateTime>2022-05-21</ns2:deliveryEndDateTime>
@@ -79,7 +79,7 @@
                 <ns0:attachments>
                     <ns2:totalDocumentsCount>1</ns2:totalDocumentsCount>
                     <ns2:document>
-                        <ns2:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns2:guid>
+                        <ns2:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns2:guid>
                         <ns2:createDateTime>2021-11-18T13:13:20</ns2:createDateTime>
                         <ns2:fileName>12.txt</ns2:fileName>
                         <ns2:description>12</ns2:description>
@@ -93,7 +93,7 @@
                 <ns0:jointPurchase>false</ns0:jointPurchase>
                 <ns0:forSmallOrMiddle>false</ns0:forSmallOrMiddle>
                 <ns0:antimonopolyDecisionTaken>false</ns0:antimonopolyDecisionTaken>
-                <ns0:applSubmisionStartDate>2022-08-25T14:45:00</ns0:applSubmisionStartDate>
+                <ns0:applSubmisionStartDate>2022-09-13T14:30:41</ns0:applSubmisionStartDate>
                 <ns0:applSubmisionOrder>1</ns0:applSubmisionOrder>
                 <ns0:summingupOrder>1</ns0:summingupOrder>
                 <ns0:signatureAuthorizedBody />
@@ -103,10 +103,10 @@
                     <ns2:electronicPlaceId>3</ns2:electronicPlaceId>
                 </ns0:electronicPlaceInfo>
                 <ns0:placingProcedure>
-                    <ns0:summingupDateTime>2022-09-04T14:45:00</ns0:summingupDateTime>
+                    <ns0:summingupDateTime>2022-09-23T14:30:41</ns0:summingupDateTime>
                 </ns0:placingProcedure>
-                <ns0:submissionCloseDateTime>2022-08-30T14:45:00</ns0:submissionCloseDateTime>
-                <ns0:publicationPlannedDate>2022-08-25T14:45:00</ns0:publicationPlannedDate>
+                <ns0:submissionCloseDateTime>2022-09-18T14:30:41</ns0:submissionCloseDateTime>
+                <ns0:publicationPlannedDate>2022-09-13T14:30:41</ns0:publicationPlannedDate>
                 <ns0:templateVersion>2</ns0:templateVersion>
                 <ns0:templateStructure>
                     <ns0:level>
@@ -296,7 +296,7 @@
                             <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1087;&#1077;&#1088;&#1074;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
                             <ns2:type>DATE</ns2:type>
                             <ns2:value>
-                                <ns2:date>2022-09-02T14:45:00</ns2:date>
+                                <ns2:date>2022-09-21T14:30:41</ns2:date>
                             </ns2:value>
                         </ns2:extendField>
                         <ns2:extendField>
@@ -321,7 +321,7 @@
                             <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1074;&#1090;&#1086;&#1088;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
                             <ns2:type>DATE</ns2:type>
                             <ns2:value>
-                                <ns2:date>2022-09-02T14:45:00</ns2:date>
+                                <ns2:date>2022-09-21T14:30:41</ns2:date>
                             </ns2:value>
                         </ns2:extendField>
                         <ns2:extendField>
@@ -343,7 +343,7 @@
                 </ns0:extendFields>
                 <ns0:lots>
                     <ns2:lot>
-                        <ns2:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns2:guid>
+                        <ns2:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns2:guid>
                         <ns2:ordinalNumber>1</ns2:ordinalNumber>
                         <ns2:lotEditEnabled>false</ns2:lotEditEnabled>
                         <ns2:lotData>
@@ -362,7 +362,7 @@
                             <ns2:lotItems>
                                 <ns2:newCodes>true</ns2:newCodes>
                                 <ns2:lotItem>
-                                    <ns2:guid>72f5ca6c-b4cf-43ee-a174-4a077a434b72</ns2:guid>
+                                    <ns2:guid>6e364f79-ac12-48f1-8185-7653e75cff75</ns2:guid>
                                     <ns2:ordinalNumber>1</ns2:ordinalNumber>
                                     <ns2:okpd2>
                                         <ns2:code>01.11.11.111</ns2:code>

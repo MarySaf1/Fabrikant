@@ -10,7 +10,7 @@ url = 'https://demo-api.fabrikant.ru/multi-integration/common/fz223_smbo_rosatom
 # генерация рандомных данных и занесение в список
 PurchaseId = str(random.randint(1 ** 11, 10 ** 11))
 EIS_GUID = str(uuid.uuid4())
-PurchaseName = 'ROSATOM №' + str(random.randint(100, 999))
+PurchaseName = 'ROSATOM ЗП №' + str(random.randint(100, 999))
 randomValue = [EIS_GUID, PurchaseId, PurchaseName]
 
 # парсинг xml и занесение в список изменяемых тегов

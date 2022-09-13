@@ -1,523 +1,497 @@
-<ns2:purchaseNoticeAESMBO xmlns="http://zakupki.gov.ru/223fz/types/1"
-    xmlns:ns20="http://zakupki.gov.ru/223fz/exclusion/1"
-    xmlns:ns21="http://zakupki.gov.ru/223fz/agencyRelation/1"
-    xmlns:ns22="http://zakupki.gov.ru/223fz/machineryListInfo/1"
-    xmlns:ns23="http://zakupki.gov.ru/223fz/revenue/1"
-    xmlns:ns24="http://zakupki.gov.ru/223fz/ecp-packet/1"
-    xmlns:ns25="http://zakupki.gov.ru/223fz/webRequest/1"
-    xmlns:ns2="http://zakupki.gov.ru/223fz/purchase/1"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ns3="http://zakupki.gov.ru/223fz/dishonestSupplier/1"
-    xmlns:ns4="http://zakupki.gov.ru/223fz/orderClauseList/1"
-    xmlns:ns5="http://zakupki.gov.ru/223fz/disagreementProtocol/1"
-    xmlns:ns6="http://zakupki.gov.ru/223fz/customerRegistry/1"
-    xmlns:ns7="http://zakupki.gov.ru/223fz/complaint/1"
-    xmlns:ns8="http://zakupki.gov.ru/223fz/purchasePlan/1"
-    xmlns:ns9="http://zakupki.gov.ru/223fz/purchasePlanUpdatePositionDataType/1"
-    xmlns:ns10="http://zakupki.gov.ru/223fz/notificationIssue/1"
-    xmlns:ns11="http://zakupki.gov.ru/223fz/purchasePlanProject/1"
-    xmlns:ns12="http://zakupki.gov.ru/223fz/typalOrderClauseList/1"
-    xmlns:ns13="http://zakupki.gov.ru/223fz/purchasePlanProjectAdditionalPosition/1"
-    xmlns:ns14="http://zakupki.gov.ru/223fz/contract/1"
-    xmlns:ns15="http://zakupki.gov.ru/223fz/missedNotice/1"
-    xmlns:ns16="http://zakupki.gov.ru/223fz/decisionSuspension/1"
-    xmlns:ns17="http://zakupki.gov.ru/223fz/purchasePlanAdditionalPosition/1"
-    xmlns:ns18="http://zakupki.gov.ru/223fz/stopCommodity/1"
-    xmlns:ns19="http://zakupki.gov.ru/223fz/reference/1"
-    xsi:schemaLocation="http://zakupki.gov.ru/223/integration/schema/TFF-9.0.3 http://zakupki.gov.ru/223/integration/schema/TFF-9.0.3/purchase.xsd">
-    <header>
-        <guid>fa4849e1-6a5b-5858-b1e3-2d2507cf2162</guid>
-        <createDateTime>2022-12-08T09:10:26</createDateTime>
-    </header>
-    <ns2:body>
-        <ns2:item>
-            <guid>fa4849e1-6a5b-5858-b1e3-2d2507cf2162</guid>
-            <ns2:purchaseNoticeAESMBOData>
-                <ns2:guid>fa4849e1-6a5b-5858-b1e3-2d2507cf2162</ns2:guid>
-                <ns2:createDateTime>2022-12-19T09:10:44</ns2:createDateTime>
-                <ns2:urlEIS>https://lk.eis4.roskazna.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=122107</ns2:urlEIS>
-                <ns2:registrationNumber>51729663204</ns2:registrationNumber>
-                <ns2:name>Росатом ЭА 2626</ns2:name>
-                <ns2:customer>
-                    <mainInfo>
-                        <fullName>ОАО "Атомкомплект"</fullName>
-                        <shortName>ОАО "Атомкомплект"</shortName>
-                        <iko>54444444414444444414</iko>
-                        <inn>4444444414</inn>
-                        <kpp>444444414</kpp>
-                        <ogrn>9999999999914</ogrn>
-                        <legalAddress>Российская Федерация 142100 Московская обл Подольск г
-                            Ватутинский проезд д. 84</legalAddress>
-                        <postalAddress>Почтовый адрес</postalAddress>
-                        <phone>1122222333333344</phone>
-                        <fax>11 (910) 002-82-77</fax>
-                        <email>teset@yandex.ru</email>
-                        <okato>40260000000</okato>
-                        <okopf>39</okopf>
-                        <okopfName>Юридические лица, являющиеся коммерческими
-                            организациями</okopfName>
-                        <okpo>112235</okpo>
-                        <timeZone>
-                            <offset>0</offset>
-                            <name>МСК (СГВ+3) Москва, Волгоград</name>
-                        </timeZone>
-                    </mainInfo>
-                </ns2:customer>
-                <ns2:purchaseMethodCode>4490</ns2:purchaseMethodCode>
-                <ns2:purchaseCodeName>Аукцион в электронной форме, участниками которого могут быть
-                    только субъекты малого и среднего предпринимательства</ns2:purchaseCodeName>
-                <ns2:placer>
-                    <mainInfo>
-                        <fullName>ОАО "Атомкомплект"</fullName>
-                        <shortName>ОАО "Атомкомплект"</shortName>
-                        <iko>54444444414444444414</iko>
-                        <inn>4444444414</inn>
-                        <kpp>444444414</kpp>
-                        <ogrn>9999999999914</ogrn>
-                        <legalAddress>Российская Федерация 142100 Московская обл Подольск г
-                            Ватутинский проезд д. 84</legalAddress>
-                        <postalAddress>Почтовый адрес</postalAddress>
-                        <phone>1122222333333344</phone>
-                        <fax>11 (910) 002-82-77</fax>
-                        <email>teset@yandex.ru</email>
-                        <okato>40260000000</okato>
-                        <okopf>39</okopf>
-                        <okopfName>Юридические лица, являющиеся коммерческими
-                            организациями</okopfName>
-                        <okpo>112235</okpo>
-                    </mainInfo>
-                </ns2:placer>
-                <ns2:contact>
-                    <firstName>Е.</firstName>
-                    <middleName>Н.</middleName>
-                    <lastName>Горская</lastName>
-                    <phone>+7 (495) 2765301, доб.: 4489</phone>
-                    <fax>74952765301</fax>
-                    <email>test@niipribor.ru</email>
-                </ns2:contact>
-                <ns2:publicationDateTime>2021-12-12T10:10:25</ns2:publicationDateTime>
-                <ns2:documentationDelivery>
-                    <deliveryStartDateTime>2021-12-12</deliveryStartDateTime>
-                    <deliveryEndDateTime>2022-12-30</deliveryEndDateTime>
-                    <place>м</place>
-                    <procedure>м</procedure>
-                </ns2:documentationDelivery>
-                <ns2:status>P</ns2:status>
-                <ns2:version>1</ns2:version>
-                <ns2:modificationDescription>Изменение номер 1</ns2:modificationDescription>
-                <ns2:notDishonest>false</ns2:notDishonest>
-                <ns2:attachments>
-                    <totalDocumentsCount>1</totalDocumentsCount>
-                    <document>
-                        <guid>b535c716-092c-459c-b47d-8a507481c3ab</guid>
-                        <createDateTime>2021-12-12T13:23:21</createDateTime>
-                        <fileName>1.png</fileName>
-                        <description>1</description>
-                        <url>https://eis4.roskazna.ru/223/purchase/public/download/download.html?id=338443</url>
-                    </document>
-                </ns2:attachments>
-                <ns2:modificationDate>2021-11-19T09:10:26</ns2:modificationDate>
-                <ns2:saveUserId>141001</ns2:saveUserId>
-                <ns2:deliveryPlaceIndication>DIFFERENT_PLACE</ns2:deliveryPlaceIndication>
-                <ns2:emergency>false</ns2:emergency>
-                <ns2:jointPurchase>false</ns2:jointPurchase>
-                <ns2:forSmallOrMiddle>false</ns2:forSmallOrMiddle>
-                <ns2:antimonopolyDecisionTaken>false</ns2:antimonopolyDecisionTaken>
-                <ns2:applSubmisionStartDate>2021-11-19</ns2:applSubmisionStartDate>
-                <ns2:applSubmisionOrder>Порядок </ns2:applSubmisionOrder>
-                <ns2:summingupOrder>Порядок </ns2:summingupOrder>
-                <ns2:electronicPlaceInfo>
-                    <name>АКЦИОНЕРНОЕ ОБЩЕСТВО «ЭЛЕКТРОННЫЕ ТОРГОВЫЕ СИСТЕМЫ»</name>
-                    <url>http://www.etp-ets.ru</url>
-                    <electronicPlaceId>3</electronicPlaceId>
-                </ns2:electronicPlaceInfo>
-                <ns2:placingProcedure>
-                    <ns2:summingupDateTime>2022-12-30T00:00:00</ns2:summingupDateTime>
-                </ns2:placingProcedure>
-                <ns2:submissionCloseDateTime>2022-12-18T13:25:00</ns2:submissionCloseDateTime>
-                <!-- окончание подачи заявок  -->
-                <ns2:publicationPlannedDate>2021-12-19</ns2:publicationPlannedDate>
-                <ns2:templateVersion>1</ns2:templateVersion>
-                <ns2:templateStructure>
-                    <ns2:level>
-                        <ns2:tabLevel>NOTICE</ns2:tabLevel>
-                        <ns2:tab>
-                            <tabOrdinal>1</tabOrdinal>
-                            <tabName>Общая информация</tabName>
-                            <fixedName>MAIN</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Сведения о состоянии извещения</sectionName>
-                                <fixedName>MAIN_STATUS</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>2</sectionOrdinal>
-                                <sectionName>Сведения о заказчике</sectionName>
-                                <fixedName>MAIN_CUSTOMER</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>3</sectionOrdinal>
-                                <sectionName>Сведения об обособленном подразделении</sectionName>
-                                <fixedName>MAIN_DETACHED_DEPARTMENT</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>4</sectionOrdinal>
-                                <sectionName>Cведения о закупке</sectionName>
-                                <fixedName>MAIN_PURCHASE</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>5</sectionOrdinal>
-                                <sectionName>Требования к участникам закупки</sectionName>
-                                <fixedName>MAIN_PARTICIPANT_REQUIREMENTS</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>6</sectionOrdinal>
-                                <sectionName>Контактная информация</sectionName>
-                                <fixedName>MAIN_CONTACTS</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>7</sectionOrdinal>
-                                <sectionName>Дополнительная информация</sectionName>
-                                <fixedName>MAIN_ADDITIONAL_INFO</fixedName>
-                            </section>
-                        </ns2:tab>
-                        <ns2:tab>
-                            <tabOrdinal>2</tabOrdinal>
-                            <tabName>Порядок проведения процедуры</tabName>
-                            <fixedName>COMMISSION</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Размещение извещения</sectionName>
-                                <fixedName>COMMISSION_PUBLISH</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>2</sectionOrdinal>
-                                <sectionName>Подача заявок</sectionName>
-                                <fixedName>APPLICATIONS_SUBMISSION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>3</sectionOrdinal>
-                                <sectionName>Рассмотрение заявок</sectionName>
-                                <fixedName>APPLICATIONS_EXAM</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>4</sectionOrdinal>
-                                <sectionName>Обсуждение функциональных характеристик</sectionName>
-                                <fixedName>FUNCTIONAL_CHARACTERISTIC</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>5</sectionOrdinal>
-                                <sectionName>Обсуждение предложений о функциональных
-                                    характеристиках</sectionName>
-                                <fixedName>FUNCTIONAL_CHARACTERISTIC_DISCUSSION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>6</sectionOrdinal>
-                                <sectionName>Рассмотрение и оценка окончательных предложений о
-                                    функциональных характеристиках</sectionName>
-                                <fixedName>FUNCTIONAL_CHARACTERISTIC_ASSESSMENT_AND_FINAL_OFFER</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>7</sectionOrdinal>
-                                <sectionName>Рассмотрение первых частей заявок</sectionName>
-                                <fixedName>APPLICATIONS_EXAM_FIRST_PART</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>8</sectionOrdinal>
-                                <sectionName>Подача ценовых предложений</sectionName>
-                                <fixedName>PRICE_OFFER_SUBMISSION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>9</sectionOrdinal>
-                                <sectionName>Сопоставление ценовых предложений</sectionName>
-                                <fixedName>PRICE_OFFER_COMPARISION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>10</sectionOrdinal>
-                                <sectionName>Подача дополнительных ценовых предложений</sectionName>
-                                <fixedName>ADDITIONAL_PRICE_OFFER_APPLICATION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>11</sectionOrdinal>
-                                <sectionName>Сопоставление дополнительных ценовых
-                                    предложений</sectionName>
-                                <fixedName>ADDITIONAL_PRICE_OFFER_COMPARISION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>12</sectionOrdinal>
-                                <sectionName>Квалификационный отбор</sectionName>
-                                <fixedName>QUALIFYING_SELECTION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>13</sectionOrdinal>
-                                <sectionName>Рассмотрение вторых частей заявок</sectionName>
-                                <fixedName>APPLICATIONS_EXAM_SECOND_PART</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>14</sectionOrdinal>
-                                <sectionName>Рассмотрение котировочных заявок</sectionName>
-                                <fixedName>QUTATION_EXAMINATION_APP</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>15</sectionOrdinal>
-                                <sectionName>Форма котировочной заявки</sectionName>
-                                <fixedName>QUTATION_EXAMINATION_APP_FORM</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>16</sectionOrdinal>
-                                <sectionName>Вскрытие конвертов</sectionName>
-                                <fixedName>ENVELOPE_OPENING</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>17</sectionOrdinal>
-                                <sectionName>Проведение аукциона</sectionName>
-                                <fixedName>AUCTION_EXECUTION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>18</sectionOrdinal>
-                                <sectionName>Проведение аукциона в электронной форме</sectionName>
-                                <fixedName>EAUCTION_EXECUTION</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>19</sectionOrdinal>
-                                <sectionName>Подведение итогов</sectionName>
-                                <fixedName>SUMMARIZING</fixedName>
-                            </section>
-                        </ns2:tab>
-                        <ns2:tab>
-                            <tabOrdinal>3</tabOrdinal>
-                            <tabName>Список лотов</tabName>
-                            <fixedName>LOTS</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Сведения о лотах</sectionName>
-                                <fixedName>LOTS_INFO</fixedName>
-                            </section>
-                        </ns2:tab>
-                        <ns2:tab>
-                            <tabOrdinal>6</tabOrdinal>
-                            <tabName>Документация</tabName>
-                            <fixedName>DOCS</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Предоставление документации</sectionName>
-                                <fixedName>DOCS_INFO</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>2</sectionOrdinal>
-                                <sectionName>Файлы документации</sectionName>
-                                <fixedName>DOCS_FILES</fixedName>
-                            </section>
-                        </ns2:tab>
-                    </ns2:level>
-                    <ns2:level>
-                        <ns2:tabLevel>LOT</ns2:tabLevel>
-                        <ns2:tab>
-                            <tabOrdinal>4</tabOrdinal>
-                            <tabName>Формирование лота</tabName>
-                            <fixedName>LOT_INFORMATION</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Общая информация о лоте</sectionName>
-                                <fixedName>LOT_INFO</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>2</sectionOrdinal>
-                                <sectionName>Информация о товаре, работе, услуге</sectionName>
-                                <fixedName>LOT_GOODS</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>3</sectionOrdinal>
-                                <sectionName>Место поставки</sectionName>
-                                <fixedName>LOT_PLACE</fixedName>
-                            </section>
-                        </ns2:tab>
-                    </ns2:level>
-                    <ns2:level>
-                        <ns2:tabLevel>LOT_CUSTOMER</ns2:tabLevel>
-                        <ns2:tab>
-                            <tabOrdinal>5</tabOrdinal>
-                            <tabName>Формирование сведений по заказчику</tabName>
-                            <fixedName>LOT_CUSTOMER</fixedName>
-                            <section>
-                                <sectionOrdinal>1</sectionOrdinal>
-                                <sectionName>Общая информация по Заказчику</sectionName>
-                                <fixedName>LOT_CUSTOMER_INFO</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>2</sectionOrdinal>
-                                <sectionName>Информация о товаре, работе, услуге</sectionName>
-                                <fixedName>LOT_CUSTOMER_GOODS</fixedName>
-                            </section>
-                            <section>
-                                <sectionOrdinal>3</sectionOrdinal>
-                                <sectionName>Место поставки</sectionName>
-                                <fixedName>LOT_CUSTOMER_PLACE</fixedName>
-                            </section>
-                        </ns2:tab>
-                    </ns2:level>
-                </ns2:templateStructure>
-                <ns2:extendFields>
-                    <noticeExtendField>
-                        <extendField>
-                            <integrCode>applExamPeriodTime</integrCode>
-                            <description>Дата рассмотрения первых частей заявок</description>
-                            <type>DATE</type>
-                            <value>
-                                <date>2022-11-18</date>
-                            </value>
-                        </extendField>
-                        <extendField>
-                            <integrCode>applExaminationOrder</integrCode>
-                            <description>Порядок рассмотрения первых частей заявок</description>
-                            <type>TEXT</type>
-                            <value>
-                                <text>Порядок</text>
-                            </value>
-                        </extendField>
-                        <position>
-                            <tabOrdinal>2</tabOrdinal>
-                            <tabName>COMMISSION</tabName>
-                            <sectionOrdinal>7</sectionOrdinal>
-                            <sectionName>COMISSION_SEC_Рассмотрение первых частей
-                                заявок</sectionName>
-                        </position>
-                    </noticeExtendField>
-                    <noticeExtendField>
-                        <extendField>
-                            <integrCode>pricesProvisionStartDate</integrCode>
-                            <description>Дата начала срока подачи ценовых предложений</description>
-                            <type>DATE</type>
-                            <value>
-                                <date>2022-12-18</date>
-                            </value>
-                        </extendField>
-                        <extendField>
-                            <integrCode>needEnterPricesProvisionDates</integrCode>
-                            <description>Указать информацию о сроках подачи ценовых
-                                предложений</description>
-                            <type>BOOLEAN</type>
-                            <value>
-                                <boolean>false</boolean>
-                            </value>
-                        </extendField>
-                        <extendField>
-                            <integrCode>pricesProvisionOrder</integrCode>
-                            <description>Порядок подачи ценовых предложений</description>
-                            <type>TEXT</type>
-                            <value>
-                                <text>Порядок</text>
-                            </value>
-                        </extendField>
-                        <position>
-                            <tabOrdinal>2</tabOrdinal>
-                            <tabName>COMMISSION</tabName>
-                            <sectionOrdinal>8</sectionOrdinal>
-                            <sectionName>COMISSION_SEC_Подача ценовых предложений</sectionName>
-                        </position>
-                    </noticeExtendField>
-                    <noticeExtendField>
-                        <extendField>
-                            <integrCode>pricesMatchingDate</integrCode>
-                            <description>Дата проведения сопоставления ценовых
-                                предложений</description>
-                            <type>DATE</type>
-                            <value>
-                                <date>2022-12-21</date>
-                            </value>
-                        </extendField>
-                        <extendField>
-                            <integrCode>pricesMatchingOrder</integrCode>
-                            <description>Порядок проведения сопоставления ценовых
-                                предложений</description>
-                            <type>TEXT</type>
-                            <value>
-                                <text>Порядок</text>
-                            </value>
-                        </extendField>
-                        <position>
-                            <tabOrdinal>2</tabOrdinal>
-                            <tabName>COMMISSION</tabName>
-                            <sectionOrdinal>9</sectionOrdinal>
-                            <sectionName>COMISSION_SEC_Сопоставление ценовых
-                                предложений</sectionName>
-                        </position>
-                    </noticeExtendField>
-                    <noticeExtendField>
-                        <extendField>
-                            <integrCode>considerationSecondPartDate</integrCode>
-                            <description>Дата рассмотрения вторых частей заявок</description>
-                            <type>DATE</type>
-                            <value>
-                                <date>2022-12-22</date>
-                            </value>
-                        </extendField>
-                        <extendField>
-                            <integrCode>considerationSecondPartOrder</integrCode>
-                            <description>Порядок рассмотрения вторых частей заявок</description>
-                            <type>TEXT</type>
-                            <value>
-                                <text>Порядок</text>
-                            </value>
-                        </extendField>
-                        <position>
-                            <tabOrdinal>2</tabOrdinal>
-                            <tabName>COMMISSION</tabName>
-                            <sectionOrdinal>13</sectionOrdinal>
-                            <sectionName>COMISSION_SEC_Рассмотрение вторых частей
-                                заявок</sectionName>
-                        </position>
-                    </noticeExtendField>
-                </ns2:extendFields>
-                <ns2:lots>
-                    <lot>
-                        <guid>b11887a8-9402-4b25-87fa-7244967d573d</guid>
-                        <ordinalNumber>1</ordinalNumber>
-                        <lotEditEnabled>false</lotEditEnabled>
-                        <lotData>
-                            <subject>Право заключения договора на Поставку стальных труб</subject>
-                            <currency>
-                                <code>RUB</code>
-                                <digitalCode>643</digitalCode>
-                                <name>Российский рубль</name>
-                            </currency>
-                            <maxContractPrice>90000.00</maxContractPrice>
-                            <deliveryPlace>
-                                <state>Дальневосточный федеральный округ</state>
-                                <region>Амурская обл</region>
-                                <regionOkato>10000000000</regionOkato>
-                                <address>место</address>
-                            </deliveryPlace>
-                            <lotItems>
-                                <newCodes>true</newCodes>
-                                <lotItem>
-                                    <guid>dded1cff-f57c-45f6-a508-98aeb53fd7c8</guid>
-                                    <ordinalNumber>1</ordinalNumber>
-                                    <okpd2>
-                                        <code>01.11.11.130</code>
-                                        <name>Зерноотходы твердой пшеницы</name>
-                                    </okpd2>
-                                    <okved2>
-                                        <code>01.12</code>
-                                        <name>Выращивание риса</name>
-                                    </okved2>
-                                    <commodityItemPrice>90000</commodityItemPrice>
-                                </lotItem>
-                            </lotItems>
-                            <forSmallOrMiddle>true</forSmallOrMiddle>
-                            <excludePurchaseFromPlan>true</excludePurchaseFromPlan>
-                            <subcontractorsRequirement>false</subcontractorsRequirement>
-                            <ignoredPurchase>false</ignoredPurchase>
-                            <centralized>false</centralized>
-                        </lotData>
-                        <deliveryPlaceIndication>GL</deliveryPlaceIndication>
-                        <jointLotData>
-                            <jointLot>false</jointLot>
-                        </jointLotData>
-                        <cancelled>false</cancelled>
-                    </lot>
-                </ns2:lots>
-            </ns2:purchaseNoticeAESMBOData>
-        </ns2:item>
-    </ns2:body>
-</ns2:purchaseNoticeAESMBO>
+<ns0:purchaseNoticeAESMBO xmlns:ns0="http://zakupki.gov.ru/223fz/purchase/1" xmlns:ns2="http://zakupki.gov.ru/223fz/types/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zakupki.gov.ru/223/integration/schema/TFF-9.0.3 http://zakupki.gov.ru/223/integration/schema/TFF-9.0.3/purchase.xsd">
+    <ns2:header>
+        <ns2:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns2:guid>
+        <ns2:createDateTime>2022-12-08T09:10:26</ns2:createDateTime>
+    </ns2:header>
+    <ns0:body>
+        <ns0:item>
+            <ns2:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns2:guid>
+            <ns0:purchaseNoticeAESMBOData>
+                <ns0:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns0:guid>
+                <ns0:createDateTime>2022-09-13T15:14:34</ns0:createDateTime>
+                <ns0:urlEIS>https://lk.eis4.roskazna.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=122107</ns0:urlEIS>
+                <ns0:registrationNumber>5758540662</ns0:registrationNumber>
+                <ns0:name>ROSATOM &#8470;399</ns0:name>
+                <ns0:customer>
+                    <ns2:mainInfo>
+                        <ns2:fullName>&#1054;&#1040;&#1054; "&#1040;&#1090;&#1086;&#1084;&#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;"</ns2:fullName>
+                        <ns2:shortName>&#1054;&#1040;&#1054; "&#1040;&#1090;&#1086;&#1084;&#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;"</ns2:shortName>
+                        <ns2:iko>54444444414444444414</ns2:iko>
+                        <ns2:inn>4444444414</ns2:inn>
+                        <ns2:kpp>444444414</ns2:kpp>
+                        <ns2:ogrn>9999999999914</ns2:ogrn>
+                        <ns2:legalAddress>&#1056;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1072;&#1103; &#1060;&#1077;&#1076;&#1077;&#1088;&#1072;&#1094;&#1080;&#1103; 142100 &#1052;&#1086;&#1089;&#1082;&#1086;&#1074;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083; &#1055;&#1086;&#1076;&#1086;&#1083;&#1100;&#1089;&#1082; &#1075;
+                            &#1042;&#1072;&#1090;&#1091;&#1090;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1087;&#1088;&#1086;&#1077;&#1079;&#1076; &#1076;. 84</ns2:legalAddress>
+                        <ns2:postalAddress>&#1055;&#1086;&#1095;&#1090;&#1086;&#1074;&#1099;&#1081; &#1072;&#1076;&#1088;&#1077;&#1089;</ns2:postalAddress>
+                        <ns2:phone>1122222333333344</ns2:phone>
+                        <ns2:fax>11 (910) 002-82-77</ns2:fax>
+                        <ns2:email>teset@yandex.ru</ns2:email>
+                        <ns2:okato>40260000000</ns2:okato>
+                        <ns2:okopf>39</ns2:okopf>
+                        <ns2:okopfName>&#1070;&#1088;&#1080;&#1076;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1083;&#1080;&#1094;&#1072;, &#1103;&#1074;&#1083;&#1103;&#1102;&#1097;&#1080;&#1077;&#1089;&#1103; &#1082;&#1086;&#1084;&#1084;&#1077;&#1088;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;&#1080;
+                            &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;&#1084;&#1080;</ns2:okopfName>
+                        <ns2:okpo>112235</ns2:okpo>
+                        <ns2:timeZone>
+                            <ns2:offset>0</ns2:offset>
+                            <ns2:name>&#1052;&#1057;&#1050; (&#1057;&#1043;&#1042;+3) &#1052;&#1086;&#1089;&#1082;&#1074;&#1072;, &#1042;&#1086;&#1083;&#1075;&#1086;&#1075;&#1088;&#1072;&#1076;</ns2:name>
+                        </ns2:timeZone>
+                    </ns2:mainInfo>
+                </ns0:customer>
+                <ns0:purchaseMethodCode>4490</ns0:purchaseMethodCode>
+                <ns0:purchaseCodeName>&#1040;&#1091;&#1082;&#1094;&#1080;&#1086;&#1085; &#1074; &#1101;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086;&#1085;&#1085;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084;&#1077;, &#1091;&#1095;&#1072;&#1089;&#1090;&#1085;&#1080;&#1082;&#1072;&#1084;&#1080; &#1082;&#1086;&#1090;&#1086;&#1088;&#1086;&#1075;&#1086; &#1084;&#1086;&#1075;&#1091;&#1090; &#1073;&#1099;&#1090;&#1100;
+                    &#1090;&#1086;&#1083;&#1100;&#1082;&#1086; &#1089;&#1091;&#1073;&#1098;&#1077;&#1082;&#1090;&#1099; &#1084;&#1072;&#1083;&#1086;&#1075;&#1086; &#1080; &#1089;&#1088;&#1077;&#1076;&#1085;&#1077;&#1075;&#1086; &#1087;&#1088;&#1077;&#1076;&#1087;&#1088;&#1080;&#1085;&#1080;&#1084;&#1072;&#1090;&#1077;&#1083;&#1100;&#1089;&#1090;&#1074;&#1072;</ns0:purchaseCodeName>
+                <ns0:placer>
+                    <ns2:mainInfo>
+                        <ns2:fullName>&#1054;&#1040;&#1054; "&#1040;&#1090;&#1086;&#1084;&#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;"</ns2:fullName>
+                        <ns2:shortName>&#1054;&#1040;&#1054; "&#1040;&#1090;&#1086;&#1084;&#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;"</ns2:shortName>
+                        <ns2:iko>54444444414444444414</ns2:iko>
+                        <ns2:inn>4444444414</ns2:inn>
+                        <ns2:kpp>444444414</ns2:kpp>
+                        <ns2:ogrn>9999999999914</ns2:ogrn>
+                        <ns2:legalAddress>&#1056;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1072;&#1103; &#1060;&#1077;&#1076;&#1077;&#1088;&#1072;&#1094;&#1080;&#1103; 142100 &#1052;&#1086;&#1089;&#1082;&#1086;&#1074;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083; &#1055;&#1086;&#1076;&#1086;&#1083;&#1100;&#1089;&#1082; &#1075;
+                            &#1042;&#1072;&#1090;&#1091;&#1090;&#1080;&#1085;&#1089;&#1082;&#1080;&#1081; &#1087;&#1088;&#1086;&#1077;&#1079;&#1076; &#1076;. 84</ns2:legalAddress>
+                        <ns2:postalAddress>&#1055;&#1086;&#1095;&#1090;&#1086;&#1074;&#1099;&#1081; &#1072;&#1076;&#1088;&#1077;&#1089;</ns2:postalAddress>
+                        <ns2:phone>1122222333333344</ns2:phone>
+                        <ns2:fax>11 (910) 002-82-77</ns2:fax>
+                        <ns2:email>teset@yandex.ru</ns2:email>
+                        <ns2:okato>40260000000</ns2:okato>
+                        <ns2:okopf>39</ns2:okopf>
+                        <ns2:okopfName>&#1070;&#1088;&#1080;&#1076;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1083;&#1080;&#1094;&#1072;, &#1103;&#1074;&#1083;&#1103;&#1102;&#1097;&#1080;&#1077;&#1089;&#1103; &#1082;&#1086;&#1084;&#1084;&#1077;&#1088;&#1095;&#1077;&#1089;&#1082;&#1080;&#1084;&#1080;
+                            &#1086;&#1088;&#1075;&#1072;&#1085;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;&#1084;&#1080;</ns2:okopfName>
+                        <ns2:okpo>112235</ns2:okpo>
+                    </ns2:mainInfo>
+                </ns0:placer>
+                <ns0:contact>
+                    <ns2:firstName>&#1045;.</ns2:firstName>
+                    <ns2:middleName>&#1053;.</ns2:middleName>
+                    <ns2:lastName>&#1043;&#1086;&#1088;&#1089;&#1082;&#1072;&#1103;</ns2:lastName>
+                    <ns2:phone>+7 (495) 2765301, &#1076;&#1086;&#1073;.: 4489</ns2:phone>
+                    <ns2:fax>74952765301</ns2:fax>
+                    <ns2:email>test@niipribor.ru</ns2:email>
+                </ns0:contact>
+                <ns0:publicationDateTime>2022-09-13T15:14:34</ns0:publicationDateTime>
+                <ns0:documentationDelivery>
+                    <ns2:deliveryStartDateTime>2021-12-12</ns2:deliveryStartDateTime>
+                    <ns2:deliveryEndDateTime>2022-12-30</ns2:deliveryEndDateTime>
+                    <ns2:place>&#1084;</ns2:place>
+                    <ns2:procedure>&#1084;</ns2:procedure>
+                </ns0:documentationDelivery>
+                <ns0:status>P</ns0:status>
+                <ns0:version>1</ns0:version>
+                <ns0:modificationDescription>&#1048;&#1079;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1077; &#1085;&#1086;&#1084;&#1077;&#1088; 1</ns0:modificationDescription>
+                <ns0:notDishonest>false</ns0:notDishonest>
+                <ns0:attachments>
+                    <ns2:totalDocumentsCount>1</ns2:totalDocumentsCount>
+                    <ns2:document>
+                        <ns2:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns2:guid>
+                        <ns2:createDateTime>2021-12-12T13:23:21</ns2:createDateTime>
+                        <ns2:fileName>1.png</ns2:fileName>
+                        <ns2:description>1</ns2:description>
+                        <ns2:url>https://eis4.roskazna.ru/223/purchase/public/download/download.html?id=338443</ns2:url>
+                    </ns2:document>
+                </ns0:attachments>
+                <ns0:modificationDate>2021-11-19T09:10:26</ns0:modificationDate>
+                <ns0:saveUserId>141001</ns0:saveUserId>
+                <ns0:deliveryPlaceIndication>DIFFERENT_PLACE</ns0:deliveryPlaceIndication>
+                <ns0:emergency>false</ns0:emergency>
+                <ns0:jointPurchase>false</ns0:jointPurchase>
+                <ns0:forSmallOrMiddle>false</ns0:forSmallOrMiddle>
+                <ns0:antimonopolyDecisionTaken>false</ns0:antimonopolyDecisionTaken>
+                <ns0:applSubmisionStartDate>2022-09-13T15:14:34</ns0:applSubmisionStartDate>
+                <ns0:applSubmisionOrder>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; </ns0:applSubmisionOrder>
+                <ns0:summingupOrder>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; </ns0:summingupOrder>
+                <ns0:electronicPlaceInfo>
+                    <ns2:name>&#1040;&#1050;&#1062;&#1048;&#1054;&#1053;&#1045;&#1056;&#1053;&#1054;&#1045; &#1054;&#1041;&#1065;&#1045;&#1057;&#1058;&#1042;&#1054; &#171;&#1069;&#1051;&#1045;&#1050;&#1058;&#1056;&#1054;&#1053;&#1053;&#1067;&#1045; &#1058;&#1054;&#1056;&#1043;&#1054;&#1042;&#1067;&#1045; &#1057;&#1048;&#1057;&#1058;&#1045;&#1052;&#1067;&#187;</ns2:name>
+                    <ns2:url>http://www.etp-ets.ru</ns2:url>
+                    <ns2:electronicPlaceId>3</ns2:electronicPlaceId>
+                </ns0:electronicPlaceInfo>
+                <ns0:placingProcedure>
+                    <ns0:summingupDateTime>2022-09-23T15:14:34</ns0:summingupDateTime>
+                </ns0:placingProcedure>
+                <ns0:submissionCloseDateTime>2022-09-18T15:14:34</ns0:submissionCloseDateTime>
+                
+                <ns0:publicationPlannedDate>2022-09-13T15:14:34</ns0:publicationPlannedDate>
+                <ns0:templateVersion>1</ns0:templateVersion>
+                <ns0:templateStructure>
+                    <ns0:level>
+                        <ns0:tabLevel>NOTICE</ns0:tabLevel>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>1</ns2:tabOrdinal>
+                            <ns2:tabName>&#1054;&#1073;&#1097;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;</ns2:tabName>
+                            <ns2:fixedName>MAIN</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1086; &#1089;&#1086;&#1089;&#1090;&#1086;&#1103;&#1085;&#1080;&#1080; &#1080;&#1079;&#1074;&#1077;&#1097;&#1077;&#1085;&#1080;&#1103;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_STATUS</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>2</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1086; &#1079;&#1072;&#1082;&#1072;&#1079;&#1095;&#1080;&#1082;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_CUSTOMER</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>3</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1086;&#1073; &#1086;&#1073;&#1086;&#1089;&#1086;&#1073;&#1083;&#1077;&#1085;&#1085;&#1086;&#1084; &#1087;&#1086;&#1076;&#1088;&#1072;&#1079;&#1076;&#1077;&#1083;&#1077;&#1085;&#1080;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_DETACHED_DEPARTMENT</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>4</ns2:sectionOrdinal>
+                                <ns2:sectionName>C&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1086; &#1079;&#1072;&#1082;&#1091;&#1087;&#1082;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_PURCHASE</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>5</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1058;&#1088;&#1077;&#1073;&#1086;&#1074;&#1072;&#1085;&#1080;&#1103; &#1082; &#1091;&#1095;&#1072;&#1089;&#1090;&#1085;&#1080;&#1082;&#1072;&#1084; &#1079;&#1072;&#1082;&#1091;&#1087;&#1082;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_PARTICIPANT_REQUIREMENTS</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>6</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1050;&#1086;&#1085;&#1090;&#1072;&#1082;&#1090;&#1085;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_CONTACTS</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>7</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1044;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103;</ns2:sectionName>
+                                <ns2:fixedName>MAIN_ADDITIONAL_INFO</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>2</ns2:tabOrdinal>
+                            <ns2:tabName>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1087;&#1088;&#1086;&#1094;&#1077;&#1076;&#1091;&#1088;&#1099;</ns2:tabName>
+                            <ns2:fixedName>COMMISSION</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1079;&#1084;&#1077;&#1097;&#1077;&#1085;&#1080;&#1077; &#1080;&#1079;&#1074;&#1077;&#1097;&#1077;&#1085;&#1080;&#1103;</ns2:sectionName>
+                                <ns2:fixedName>COMMISSION_PUBLISH</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>2</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1086;&#1076;&#1072;&#1095;&#1072; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>APPLICATIONS_SUBMISSION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>3</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>APPLICATIONS_EXAM</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>4</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1054;&#1073;&#1089;&#1091;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>FUNCTIONAL_CHARACTERISTIC</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>5</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1054;&#1073;&#1089;&#1091;&#1078;&#1076;&#1077;&#1085;&#1080;&#1077; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; &#1086; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093;
+                                    &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072;&#1093;</ns2:sectionName>
+                                <ns2:fixedName>FUNCTIONAL_CHARACTERISTIC_DISCUSSION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>6</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1080; &#1086;&#1094;&#1077;&#1085;&#1082;&#1072; &#1086;&#1082;&#1086;&#1085;&#1095;&#1072;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; &#1086;
+                                    &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1093;&#1072;&#1088;&#1072;&#1082;&#1090;&#1077;&#1088;&#1080;&#1089;&#1090;&#1080;&#1082;&#1072;&#1093;</ns2:sectionName>
+                                <ns2:fixedName>FUNCTIONAL_CHARACTERISTIC_ASSESSMENT_AND_FINAL_OFFER</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>7</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1087;&#1077;&#1088;&#1074;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>APPLICATIONS_EXAM_FIRST_PART</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>8</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1086;&#1076;&#1072;&#1095;&#1072; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                                <ns2:fixedName>PRICE_OFFER_SUBMISSION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>9</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                                <ns2:fixedName>PRICE_OFFER_COMPARISION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>10</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1086;&#1076;&#1072;&#1095;&#1072; &#1076;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                                <ns2:fixedName>ADDITIONAL_PRICE_OFFER_APPLICATION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>11</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1076;&#1086;&#1087;&#1086;&#1083;&#1085;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1099;&#1093; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093;
+                                    &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                                <ns2:fixedName>ADDITIONAL_PRICE_OFFER_COMPARISION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>12</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1050;&#1074;&#1072;&#1083;&#1080;&#1092;&#1080;&#1082;&#1072;&#1094;&#1080;&#1086;&#1085;&#1085;&#1099;&#1081; &#1086;&#1090;&#1073;&#1086;&#1088;</ns2:sectionName>
+                                <ns2:fixedName>QUALIFYING_SELECTION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>13</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1074;&#1090;&#1086;&#1088;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>APPLICATIONS_EXAM_SECOND_PART</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>14</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1082;&#1086;&#1090;&#1080;&#1088;&#1086;&#1074;&#1086;&#1095;&#1085;&#1099;&#1093; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                                <ns2:fixedName>QUTATION_EXAMINATION_APP</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>15</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1060;&#1086;&#1088;&#1084;&#1072; &#1082;&#1086;&#1090;&#1080;&#1088;&#1086;&#1074;&#1086;&#1095;&#1085;&#1086;&#1081; &#1079;&#1072;&#1103;&#1074;&#1082;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>QUTATION_EXAMINATION_APP_FORM</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>16</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1042;&#1089;&#1082;&#1088;&#1099;&#1090;&#1080;&#1077; &#1082;&#1086;&#1085;&#1074;&#1077;&#1088;&#1090;&#1086;&#1074;</ns2:sectionName>
+                                <ns2:fixedName>ENVELOPE_OPENING</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>17</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1072;&#1091;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;</ns2:sectionName>
+                                <ns2:fixedName>AUCTION_EXECUTION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>18</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1072;&#1091;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072; &#1074; &#1101;&#1083;&#1077;&#1082;&#1090;&#1088;&#1086;&#1085;&#1085;&#1086;&#1081; &#1092;&#1086;&#1088;&#1084;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>EAUCTION_EXECUTION</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>19</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1086;&#1076;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1080;&#1090;&#1086;&#1075;&#1086;&#1074;</ns2:sectionName>
+                                <ns2:fixedName>SUMMARIZING</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>3</ns2:tabOrdinal>
+                            <ns2:tabName>&#1057;&#1087;&#1080;&#1089;&#1086;&#1082; &#1083;&#1086;&#1090;&#1086;&#1074;</ns2:tabName>
+                            <ns2:fixedName>LOTS</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1057;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1086; &#1083;&#1086;&#1090;&#1072;&#1093;</ns2:sectionName>
+                                <ns2:fixedName>LOTS_INFO</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>6</ns2:tabOrdinal>
+                            <ns2:tabName>&#1044;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1072;&#1094;&#1080;&#1103;</ns2:tabName>
+                            <ns2:fixedName>DOCS</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1055;&#1088;&#1077;&#1076;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1072;&#1094;&#1080;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>DOCS_INFO</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>2</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1060;&#1072;&#1081;&#1083;&#1099; &#1076;&#1086;&#1082;&#1091;&#1084;&#1077;&#1085;&#1090;&#1072;&#1094;&#1080;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>DOCS_FILES</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                    </ns0:level>
+                    <ns0:level>
+                        <ns0:tabLevel>LOT</ns0:tabLevel>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>4</ns2:tabOrdinal>
+                            <ns2:tabName>&#1060;&#1086;&#1088;&#1084;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1083;&#1086;&#1090;&#1072;</ns2:tabName>
+                            <ns2:fixedName>LOT_INFORMATION</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1054;&#1073;&#1097;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103; &#1086; &#1083;&#1086;&#1090;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>LOT_INFO</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>2</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1048;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103; &#1086; &#1090;&#1086;&#1074;&#1072;&#1088;&#1077;, &#1088;&#1072;&#1073;&#1086;&#1090;&#1077;, &#1091;&#1089;&#1083;&#1091;&#1075;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>LOT_GOODS</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>3</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1052;&#1077;&#1089;&#1090;&#1086; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>LOT_PLACE</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                    </ns0:level>
+                    <ns0:level>
+                        <ns0:tabLevel>LOT_CUSTOMER</ns0:tabLevel>
+                        <ns0:tab>
+                            <ns2:tabOrdinal>5</ns2:tabOrdinal>
+                            <ns2:tabName>&#1060;&#1086;&#1088;&#1084;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1089;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1081; &#1087;&#1086; &#1079;&#1072;&#1082;&#1072;&#1079;&#1095;&#1080;&#1082;&#1091;</ns2:tabName>
+                            <ns2:fixedName>LOT_CUSTOMER</ns2:fixedName>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>1</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1054;&#1073;&#1097;&#1072;&#1103; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103; &#1087;&#1086; &#1047;&#1072;&#1082;&#1072;&#1079;&#1095;&#1080;&#1082;&#1091;</ns2:sectionName>
+                                <ns2:fixedName>LOT_CUSTOMER_INFO</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>2</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1048;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1103; &#1086; &#1090;&#1086;&#1074;&#1072;&#1088;&#1077;, &#1088;&#1072;&#1073;&#1086;&#1090;&#1077;, &#1091;&#1089;&#1083;&#1091;&#1075;&#1077;</ns2:sectionName>
+                                <ns2:fixedName>LOT_CUSTOMER_GOODS</ns2:fixedName>
+                            </ns2:section>
+                            <ns2:section>
+                                <ns2:sectionOrdinal>3</ns2:sectionOrdinal>
+                                <ns2:sectionName>&#1052;&#1077;&#1089;&#1090;&#1086; &#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1080;</ns2:sectionName>
+                                <ns2:fixedName>LOT_CUSTOMER_PLACE</ns2:fixedName>
+                            </ns2:section>
+                        </ns0:tab>
+                    </ns0:level>
+                </ns0:templateStructure>
+                <ns0:extendFields>
+                    <ns2:noticeExtendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>applExamPeriodTime</ns2:integrCode>
+                            <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1087;&#1077;&#1088;&#1074;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
+                            <ns2:type>DATE</ns2:type>
+                            <ns2:value>
+                                <ns2:date>2022-09-21T15:14:34</ns2:date>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>applExaminationOrder</ns2:integrCode>
+                            <ns2:description>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1087;&#1077;&#1088;&#1074;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
+                            <ns2:type>TEXT</ns2:type>
+                            <ns2:value>
+                                <ns2:text>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082;</ns2:text>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:position>
+                            <ns2:tabOrdinal>2</ns2:tabOrdinal>
+                            <ns2:tabName>COMMISSION</ns2:tabName>
+                            <ns2:sectionOrdinal>7</ns2:sectionOrdinal>
+                            <ns2:sectionName>COMISSION_SEC_&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1087;&#1077;&#1088;&#1074;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081;
+                                &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                        </ns2:position>
+                    </ns2:noticeExtendField>
+                    <ns2:noticeExtendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>pricesProvisionStartDate</ns2:integrCode>
+                            <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1085;&#1072;&#1095;&#1072;&#1083;&#1072; &#1089;&#1088;&#1086;&#1082;&#1072; &#1087;&#1086;&#1076;&#1072;&#1095;&#1080; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:description>
+                            <ns2:type>DATE</ns2:type>
+                            <ns2:value>
+                                <ns2:date>2022-09-21T15:14:34</ns2:date>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>needEnterPricesProvisionDates</ns2:integrCode>
+                            <ns2:description>&#1059;&#1082;&#1072;&#1079;&#1072;&#1090;&#1100; &#1080;&#1085;&#1092;&#1086;&#1088;&#1084;&#1072;&#1094;&#1080;&#1102; &#1086; &#1089;&#1088;&#1086;&#1082;&#1072;&#1093; &#1087;&#1086;&#1076;&#1072;&#1095;&#1080; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093;
+                                &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:description>
+                            <ns2:type>BOOLEAN</ns2:type>
+                            <ns2:value>
+                                <ns2:boolean>false</ns2:boolean>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>pricesProvisionOrder</ns2:integrCode>
+                            <ns2:description>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1087;&#1086;&#1076;&#1072;&#1095;&#1080; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:description>
+                            <ns2:type>TEXT</ns2:type>
+                            <ns2:value>
+                                <ns2:text>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082;</ns2:text>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:position>
+                            <ns2:tabOrdinal>2</ns2:tabOrdinal>
+                            <ns2:tabName>COMMISSION</ns2:tabName>
+                            <ns2:sectionOrdinal>8</ns2:sectionOrdinal>
+                            <ns2:sectionName>COMISSION_SEC_&#1055;&#1086;&#1076;&#1072;&#1095;&#1072; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093; &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                        </ns2:position>
+                    </ns2:noticeExtendField>
+                    <ns2:noticeExtendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>pricesMatchingDate</ns2:integrCode>
+                            <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1089;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093;
+                                &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:description>
+                            <ns2:type>DATE</ns2:type>
+                            <ns2:value>
+                                <ns2:date>2022-09-21T15:14:34</ns2:date>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>pricesMatchingOrder</ns2:integrCode>
+                            <ns2:description>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1087;&#1088;&#1086;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1103; &#1089;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093;
+                                &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:description>
+                            <ns2:type>TEXT</ns2:type>
+                            <ns2:value>
+                                <ns2:text>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082;</ns2:text>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:position>
+                            <ns2:tabOrdinal>2</ns2:tabOrdinal>
+                            <ns2:tabName>COMMISSION</ns2:tabName>
+                            <ns2:sectionOrdinal>9</ns2:sectionOrdinal>
+                            <ns2:sectionName>COMISSION_SEC_&#1057;&#1086;&#1087;&#1086;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1077; &#1094;&#1077;&#1085;&#1086;&#1074;&#1099;&#1093;
+                                &#1087;&#1088;&#1077;&#1076;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081;</ns2:sectionName>
+                        </ns2:position>
+                    </ns2:noticeExtendField>
+                    <ns2:noticeExtendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>considerationSecondPartDate</ns2:integrCode>
+                            <ns2:description>&#1044;&#1072;&#1090;&#1072; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1074;&#1090;&#1086;&#1088;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
+                            <ns2:type>DATE</ns2:type>
+                            <ns2:value>
+                                <ns2:date>2022-09-21T15:14:34</ns2:date>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:extendField>
+                            <ns2:integrCode>considerationSecondPartOrder</ns2:integrCode>
+                            <ns2:description>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082; &#1088;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1103; &#1074;&#1090;&#1086;&#1088;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081; &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:description>
+                            <ns2:type>TEXT</ns2:type>
+                            <ns2:value>
+                                <ns2:text>&#1055;&#1086;&#1088;&#1103;&#1076;&#1086;&#1082;</ns2:text>
+                            </ns2:value>
+                        </ns2:extendField>
+                        <ns2:position>
+                            <ns2:tabOrdinal>2</ns2:tabOrdinal>
+                            <ns2:tabName>COMMISSION</ns2:tabName>
+                            <ns2:sectionOrdinal>13</ns2:sectionOrdinal>
+                            <ns2:sectionName>COMISSION_SEC_&#1056;&#1072;&#1089;&#1089;&#1084;&#1086;&#1090;&#1088;&#1077;&#1085;&#1080;&#1077; &#1074;&#1090;&#1086;&#1088;&#1099;&#1093; &#1095;&#1072;&#1089;&#1090;&#1077;&#1081;
+                                &#1079;&#1072;&#1103;&#1074;&#1086;&#1082;</ns2:sectionName>
+                        </ns2:position>
+                    </ns2:noticeExtendField>
+                </ns0:extendFields>
+                <ns0:lots>
+                    <ns2:lot>
+                        <ns2:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns2:guid>
+                        <ns2:ordinalNumber>1</ns2:ordinalNumber>
+                        <ns2:lotEditEnabled>false</ns2:lotEditEnabled>
+                        <ns2:lotData>
+                            <ns2:subject>&#1055;&#1088;&#1072;&#1074;&#1086; &#1079;&#1072;&#1082;&#1083;&#1102;&#1095;&#1077;&#1085;&#1080;&#1103; &#1076;&#1086;&#1075;&#1086;&#1074;&#1086;&#1088;&#1072; &#1085;&#1072; &#1055;&#1086;&#1089;&#1090;&#1072;&#1074;&#1082;&#1091; &#1089;&#1090;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1090;&#1088;&#1091;&#1073;</ns2:subject>
+                            <ns2:currency>
+                                <ns2:code>RUB</ns2:code>
+                                <ns2:digitalCode>643</ns2:digitalCode>
+                                <ns2:name>&#1056;&#1086;&#1089;&#1089;&#1080;&#1081;&#1089;&#1082;&#1080;&#1081; &#1088;&#1091;&#1073;&#1083;&#1100;</ns2:name>
+                            </ns2:currency>
+                            <ns2:maxContractPrice>90000.00</ns2:maxContractPrice>
+                            <ns2:deliveryPlace>
+                                <ns2:state>&#1044;&#1072;&#1083;&#1100;&#1085;&#1077;&#1074;&#1086;&#1089;&#1090;&#1086;&#1095;&#1085;&#1099;&#1081; &#1092;&#1077;&#1076;&#1077;&#1088;&#1072;&#1083;&#1100;&#1085;&#1099;&#1081; &#1086;&#1082;&#1088;&#1091;&#1075;</ns2:state>
+                                <ns2:region>&#1040;&#1084;&#1091;&#1088;&#1089;&#1082;&#1072;&#1103; &#1086;&#1073;&#1083;</ns2:region>
+                                <ns2:regionOkato>10000000000</ns2:regionOkato>
+                                <ns2:address>&#1084;&#1077;&#1089;&#1090;&#1086;</ns2:address>
+                            </ns2:deliveryPlace>
+                            <ns2:lotItems>
+                                <ns2:newCodes>true</ns2:newCodes>
+                                <ns2:lotItem>
+                                    <ns2:guid>53df807d-6661-4162-b2bf-b401e28aa650</ns2:guid>
+                                    <ns2:ordinalNumber>1</ns2:ordinalNumber>
+                                    <ns2:okpd2>
+                                        <ns2:code>01.11.11.130</ns2:code>
+                                        <ns2:name>&#1047;&#1077;&#1088;&#1085;&#1086;&#1086;&#1090;&#1093;&#1086;&#1076;&#1099; &#1090;&#1074;&#1077;&#1088;&#1076;&#1086;&#1081; &#1087;&#1096;&#1077;&#1085;&#1080;&#1094;&#1099;</ns2:name>
+                                    </ns2:okpd2>
+                                    <ns2:okved2>
+                                        <ns2:code>01.12</ns2:code>
+                                        <ns2:name>&#1042;&#1099;&#1088;&#1072;&#1097;&#1080;&#1074;&#1072;&#1085;&#1080;&#1077; &#1088;&#1080;&#1089;&#1072;</ns2:name>
+                                    </ns2:okved2>
+                                    <ns2:commodityItemPrice>90000</ns2:commodityItemPrice>
+                                </ns2:lotItem>
+                            </ns2:lotItems>
+                            <ns2:forSmallOrMiddle>true</ns2:forSmallOrMiddle>
+                            <ns2:excludePurchaseFromPlan>true</ns2:excludePurchaseFromPlan>
+                            <ns2:subcontractorsRequirement>false</ns2:subcontractorsRequirement>
+                            <ns2:ignoredPurchase>false</ns2:ignoredPurchase>
+                            <ns2:centralized>false</ns2:centralized>
+                        </ns2:lotData>
+                        <ns2:deliveryPlaceIndication>GL</ns2:deliveryPlaceIndication>
+                        <ns2:jointLotData>
+                            <ns2:jointLot>false</ns2:jointLot>
+                        </ns2:jointLotData>
+                        <ns2:cancelled>false</ns2:cancelled>
+                    </ns2:lot>
+                </ns0:lots>
+            </ns0:purchaseNoticeAESMBOData>
+        </ns0:item>
+    </ns0:body>
+</ns0:purchaseNoticeAESMBO>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:purchaseNoticeKESMBO
+    xsi:schemaLocation="https://zakupki.gov.ru/223/integration/schema/TFF-11.3 https://zakupki.gov.ru/223/integration/schema/TFF-11.3/purchase.xsd"
+    xmlns="http://zakupki.gov.ru/223fz/types/1" xmlns:ns2="http://zakupki.gov.ru/223fz/purchase/1"
+    xmlns:ns4="http://zakupki.gov.ru/223fz/notificationIssue/1"
+    xmlns:ns3="http://zakupki.gov.ru/223fz/dishonestSupplier/1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ns6="http://zakupki.gov.ru/223fz/purchasePlan/1"
+    xmlns:ns5="http://zakupki.gov.ru/223fz/stopCommodity/1"
+    xmlns:ns8="http://zakupki.gov.ru/223fz/purchasePlanUpdatePositionDataType/1"
+    xmlns:ns7="http://zakupki.gov.ru/223fz/purchasePlanProjectAdditionalPosition/1"
+    xmlns:ns13="http://zakupki.gov.ru/223fz/decisionSuspension/1"
+    xmlns:ns9="http://zakupki.gov.ru/223fz/typalOrderClauseList/1"
+    xmlns:ns12="http://zakupki.gov.ru/223fz/contract/1"
+    xmlns:ns11="http://zakupki.gov.ru/223fz/purchasePlanProject/1"
+    xmlns:ns10="http://zakupki.gov.ru/223fz/reference/1"
+    xmlns:ns17="http://zakupki.gov.ru/223fz/revenue/1"
+    xmlns:ns16="http://zakupki.gov.ru/223fz/purchasePlanAdditionalPosition/1"
+    xmlns:ns15="http://zakupki.gov.ru/223fz/agencyRelation/1"
+    xmlns:ns14="http://zakupki.gov.ru/223fz/machineryListInfo/1"
+    xmlns:ns19="http://zakupki.gov.ru/223fz/orderClauseList/1"
+    xmlns:ns18="http://zakupki.gov.ru/223fz/customerRegistry/1"
+    xmlns:ns20="http://zakupki.gov.ru/223fz/complaint/1"
+    xmlns:ns24="http://zakupki.gov.ru/223fz/ecp-packet/1"
+    xmlns:ns23="http://zakupki.gov.ru/223fz/disagreementProtocol/1"
+    xmlns:ns22="http://zakupki.gov.ru/223fz/missedNotice/1"
+    xmlns:ns21="http://zakupki.gov.ru/223fz/exclusion/1"
+    xmlns:ns25="http://zakupki.gov.ru/223fz/webRequest/1">
+    <header>
+        <guid>d80332be-90e4-4bb5-bdb9-6b470672bbf3</guid>
+        <createDateTime>2021-11-22T17:06:25</createDateTime>
+    </header>
+    <ns2:body>
+        <ns2:item>
+            <guid>d80332be-90e4-4bb5-bdb9-6b470672bbf3</guid>
+            <ns2:purchaseNoticeKESMBOData>
+                <ns2:guid>d80332be-90e4-4bb5-bdb9-6b470672bbf3</ns2:guid>
+                <ns2:createDateTime>2021-11-22T17:00:53</ns2:createDateTime>
+                <ns2:urlEIS>https://lk.eis4.roskazna.ru/223/purchase/private/purchase/notice-info/details.html?noticeInfoId=335379</ns2:urlEIS>
+                <ns2:registrationNumber>36508358320</ns2:registrationNumber>
+                <ns2:name>Росатом ЭК Никита</ns2:name>
+                <ns2:customer>
+                    <mainInfo>
+                        <fullName>ОАО "Атомкомплект"</fullName>
+                        <shortName>ОАО "Атомкомплект"</shortName>
+                        <iko>54444444414444444414</iko>
+                        <inn>4444444414</inn>
+                        <kpp>444444414</kpp>
+                        <ogrn>9999999999914</ogrn>
+                        <legalAddress>Российская Федерация 142100 Московская обл Подольск г
+                            Ватутинский проезд д. 84</legalAddress>
+                        <postalAddress>Почтовый адрес</postalAddress>
+                        <email>pgz223fz@yandex.ru</email>
+                        <okato>40260000000</okato>
+                        <okopf>39</okopf>
+                        <okopfName>Юридические лица, являющиеся коммерческими
+                            организациями</okopfName>
+                        <okpo>112235</okpo>
+                        <okfs>20</okfs>
+                        <okfsName>ИНОСТРАННАЯ СОБСТВЕННОСТЬ</okfsName>
+                        <timeZone>
+                            <offset>0</offset>
+                            <name>МСК (СГВ+3) Москва, Волгоград</name>
+                        </timeZone>
+                    </mainInfo>
+                </ns2:customer>
+                <ns2:purchaseMethodCode>4489</ns2:purchaseMethodCode>
+                <ns2:purchaseCodeName>Конкурс в электронной форме, участниками которого могут быть
+                    только субъекты малого и среднего предпринимательства</ns2:purchaseCodeName>
+                <ns2:placer>
+                    <mainInfo>
+                        <fullName>ОАО "Атомкомплект"</fullName>
+                        <shortName>ОАО "Атомкомплект"</shortName>
+                        <iko>54444444414444444414</iko>
+                        <inn>4444444414</inn>
+                        <kpp>444444414</kpp>
+                        <ogrn>9999999999914</ogrn>
+                        <legalAddress>Российская Федерация 142100 Московская обл Подольск г
+                            Ватутинский проезд д. 84</legalAddress>
+                        <postalAddress>Почтовый адрес</postalAddress>
+                        <email>pgz223fz@yandex.ru</email>
+                        <okato>40260000000</okato>
+                        <okopf>39</okopf>
+                        <okopfName>Юридические лица, являющиеся коммерческими
+                            организациями</okopfName>
+                        <okpo>112235</okpo>
+                        <okfs>20</okfs>
+                        <okfsName>ИНОСТРАННАЯ СОБСТВЕННОСТЬ</okfsName>
+                    </mainInfo>
+                </ns2:placer>
+                <ns2:contact>
+                    <phone>+7 (999) 9999999</phone>
+                    <email>fwsf@fere.ru</email>
+                </ns2:contact>
+                <ns2:publicationDateTime>2021-11-22T17:06:25</ns2:publicationDateTime>
+                <ns2:documentationDelivery>
+                    <deliveryStartDateTime>2021-11-22</deliveryStartDateTime>
+                    <deliveryEndDateTime>2021-12-25</deliveryEndDateTime>
+                    <place>1</place>
+                    <procedure>1</procedure>
+                </ns2:documentationDelivery>
+                <ns2:status>P</ns2:status>
+                <ns2:version>1</ns2:version>
+                <ns2:notDishonest>false</ns2:notDishonest>
+                <ns2:attachments>
+                    <totalDocumentsCount>1</totalDocumentsCount>
+                    <document>
+                        <guid>3248ce17-258b-47c5-b127-47dc84aceafb</guid>
+                        <createDateTime>2021-11-22T17:05:57</createDateTime>
+                        <fileName>Документ Microsoft Word (2).docx</fileName>
+                        <description>Документ Microsoft Word (2)</description>
+                        <url>https://eis4.roskazna.ru/223/purchase/public/download/download.html?id=876663</url>
+                    </document>
+                </ns2:attachments>
+                <ns2:modificationDate>2021-12-22T17:06:25</ns2:modificationDate>
+                <ns2:saveUserId>141001</ns2:saveUserId>
+                <ns2:deliveryPlaceIndication>DIFFERENT_PLACE</ns2:deliveryPlaceIndication>
+                <ns2:emergency>true</ns2:emergency>
+                <ns2:jointPurchase>false</ns2:jointPurchase>
+                <ns2:forSmallOrMiddle>false</ns2:forSmallOrMiddle>
+                <ns2:antimonopolyDecisionTaken>false</ns2:antimonopolyDecisionTaken>
+                <ns2:applSubmisionStartDate>2021-11-29</ns2:applSubmisionStartDate>
+                <ns2:applSubmisionOrder>1</ns2:applSubmisionOrder>
+                <ns2:summingupOrder>d</ns2:summingupOrder>
+                <ns2:signatureAuthorizedBody/>
+                <ns2:electronicPlaceInfo>
+                    <name>АКЦИОНЕРНОЕ ОБЩЕСТВО «ЭЛЕКТРОННЫЕ ТОРГОВЫЕ СИСТЕМЫ»</name>
+                    <url>http://www.etp-ets.ru</url>
+                    <electronicPlaceId>3</electronicPlaceId>
+                </ns2:electronicPlaceInfo>
+                <ns2:placingProcedure>
+                    <ns2:summingupDateTime>2022-01-07T00:00:00</ns2:summingupDateTime>
+                </ns2:placingProcedure>
+                <ns2:submissionCloseDateTime>2021-12-30T12:00:00</ns2:submissionCloseDateTime>
+                <ns2:publicationPlannedDate>2021-11-22</ns2:publicationPlannedDate>
+                <ns2:templateVersion>2</ns2:templateVersion>
+                <ns2:templateStructure>
+                    <ns2:level>
+                        <ns2:tabLevel>NOTICE</ns2:tabLevel>
+                        <ns2:tab>
+                            <tabOrdinal>1</tabOrdinal>
+                            <tabName>Общая информация</tabName>
+                            <fixedName>MAIN</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Сведения об извещении</sectionName>
+                                <fixedName>MAIN_STATUS</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>2</sectionOrdinal>
+                                <sectionName>Сведения о заказчике</sectionName>
+                                <fixedName>MAIN_CUSTOMER</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>3</sectionOrdinal>
+                                <sectionName>Сведения об обособленном подразделении</sectionName>
+                                <fixedName>MAIN_DETACHED_DEPARTMENT</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>4</sectionOrdinal>
+                                <sectionName>Сведения о закупке</sectionName>
+                                <fixedName>MAIN_PURCHASE</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>5</sectionOrdinal>
+                                <sectionName>Требования к участникам закупки</sectionName>
+                                <fixedName>MAIN_PARTICIPANT_REQUIREMENTS</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>6</sectionOrdinal>
+                                <sectionName>Контактная информация</sectionName>
+                                <fixedName>MAIN_CONTACTS</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>7</sectionOrdinal>
+                                <sectionName>Дополнительная информация</sectionName>
+                                <fixedName>MAIN_ADDITIONAL_INFO</fixedName>
+                            </section>
+                        </ns2:tab>
+                        <ns2:tab>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>Порядок проведения процедуры</tabName>
+                            <fixedName>COMMISSION</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Размещение извещения</sectionName>
+                                <fixedName>COMMISSION_PUBLISH</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>2</sectionOrdinal>
+                                <sectionName>Обсуждение функциональных характеристик</sectionName>
+                                <fixedName>FUNCTIONAL_CHARACTERISTIC</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>3</sectionOrdinal>
+                                <sectionName>Подача заявок</sectionName>
+                                <fixedName>APPLICATIONS_SUBMISSION</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>4</sectionOrdinal>
+                                <sectionName>Обсуждение предложений о функциональных
+                                    характеристиках</sectionName>
+                                <fixedName>FUNCTIONAL_CHARACTERISTIC_DISCUSSION</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>5</sectionOrdinal>
+                                <sectionName>Рассмотрение и оценка окончательных предложений о
+                                    функциональных характеристиках</sectionName>
+                                <fixedName>FUNCTIONAL_CHARACTERISTIC_ASSESSMENT_AND_FINAL_OFFER</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>6</sectionOrdinal>
+                                <sectionName>Рассмотрение первых частей заявок</sectionName>
+                                <fixedName>APPLICATIONS_EXAM_FIRST_PART</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>7</sectionOrdinal>
+                                <sectionName>Подача дополнительных ценовых предложений</sectionName>
+                                <fixedName>ADDITIONAL_PRICE_OFFER_APPLICATION</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>8</sectionOrdinal>
+                                <sectionName>Рассмотрение вторых частей заявок</sectionName>
+                                <fixedName>APPLICATIONS_EXAM_SECOND_PART</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>9</sectionOrdinal>
+                                <sectionName>Сопоставление дополнительных ценовых
+                                    предложений</sectionName>
+                                <fixedName>ADDITIONAL_PRICE_OFFER_COMPARISION</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>10</sectionOrdinal>
+                                <sectionName>Подведение итогов</sectionName>
+                                <fixedName>SUMMARIZING</fixedName>
+                            </section>
+                        </ns2:tab>
+                        <ns2:tab>
+                            <tabOrdinal>3</tabOrdinal>
+                            <tabName>Список лотов</tabName>
+                            <fixedName>LOTS</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Сведения о лотах</sectionName>
+                                <fixedName>LOTS_INFO</fixedName>
+                            </section>
+                        </ns2:tab>
+                        <ns2:tab>
+                            <tabOrdinal>6</tabOrdinal>
+                            <tabName>Документация</tabName>
+                            <fixedName>DOCS</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Предоставление документации</sectionName>
+                                <fixedName>DOCS_INFO</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>2</sectionOrdinal>
+                                <sectionName>Файлы документации</sectionName>
+                                <fixedName>DOCS_FILES</fixedName>
+                            </section>
+                        </ns2:tab>
+                    </ns2:level>
+                    <ns2:level>
+                        <ns2:tabLevel>LOT</ns2:tabLevel>
+                        <ns2:tab>
+                            <tabOrdinal>4</tabOrdinal>
+                            <tabName>Формирование лота</tabName>
+                            <fixedName>LOT_INFORMATION</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Общая информация о лоте</sectionName>
+                                <fixedName>LOT_INFO</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>2</sectionOrdinal>
+                                <sectionName>Информация о товаре, работе, услуге</sectionName>
+                                <fixedName>LOT_GOODS</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>3</sectionOrdinal>
+                                <sectionName>Место поставки</sectionName>
+                                <fixedName>LOT_PLACE</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>4</sectionOrdinal>
+                                <sectionName>Требования к обеспечению заявки</sectionName>
+                                <fixedName>LOT_REQUIREMENTS</fixedName>
+                            </section>
+                        </ns2:tab>
+                    </ns2:level>
+                    <ns2:level>
+                        <ns2:tabLevel>LOT_CUSTOMER</ns2:tabLevel>
+                        <ns2:tab>
+                            <tabOrdinal>5</tabOrdinal>
+                            <tabName>Сведения по заказчику</tabName>
+                            <fixedName>LOT_CUSTOMER</fixedName>
+                            <section>
+                                <sectionOrdinal>1</sectionOrdinal>
+                                <sectionName>Общая информация по Заказчику</sectionName>
+                                <fixedName>LOT_CUSTOMER_INFO</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>2</sectionOrdinal>
+                                <sectionName>Информация о товаре, работе, услуге</sectionName>
+                                <fixedName>LOT_CUSTOMER_GOODS</fixedName>
+                            </section>
+                            <section>
+                                <sectionOrdinal>3</sectionOrdinal>
+                                <sectionName>Место поставки</sectionName>
+                                <fixedName>LOT_CUSTOMER_PLACE</fixedName>
+                            </section>
+                        </ns2:tab>
+                    </ns2:level>
+                </ns2:templateStructure>
+                <ns2:extendFields>
+                    <noticeExtendField>
+                        <extendField>
+                            <integrCode>functionalFeaturesFinalOffersProvision</integrCode>
+                            <description>Предоставление окончательных предложений с учетом
+                                уточненных функциональных характеристик(потребительских свойств)
+                                закупаемых товаров, работ, услуг, иных условий исполнения
+                                договора</description>
+                            <type>BOOLEAN</type>
+                            <value>
+                                <boolean>false</boolean>
+                            </value>
+                        </extendField>
+                        <position>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>COMMISSION</tabName>
+                            <sectionOrdinal>2</sectionOrdinal>
+                            <sectionName>COMISSION_SEC_Обсуждение функциональных
+                                характеристик</sectionName>
+                        </position>
+                    </noticeExtendField>
+                    <noticeExtendField>
+                        <extendField>
+                            <integrCode>finalOffersProvision</integrCode>
+                            <description>Предоставление окончательных предложений с учетом
+                                уточненных функциональных характеристик(потребительских свойств)
+                                закупаемых товаров, работ, услуг, иных условий исполнения
+                                договора</description>
+                            <type>BOOLEAN</type>
+                            <value>
+                                <boolean>false</boolean>
+                            </value>
+                        </extendField>
+                        <position>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>COMMISSION</tabName>
+                            <sectionOrdinal>4</sectionOrdinal>
+                            <sectionName>COMISSION_SEC_Обсуждение предложений о функциональных
+                                характеристиках</sectionName>
+                        </position>
+                    </noticeExtendField>
+                    <noticeExtendField>
+                        <extendField>
+                            <integrCode>applExamPeriodTime</integrCode>
+                            <description>Дата рассмотрения первых частей заявок</description>
+                            <type>DATE</type>
+                            <value>
+                                <date>2022-01-05</date>
+                            </value>
+                        </extendField>
+                        <extendField>
+                            <integrCode>applExaminationOrder</integrCode>
+                            <description>Порядок рассмотрения первых частей заявок</description>
+                            <type>TEXT</type>
+                            <value>
+                                <text>1</text>
+                            </value>
+                        </extendField>
+                        <position>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>COMMISSION</tabName>
+                            <sectionOrdinal>6</sectionOrdinal>
+                            <sectionName>COMISSION_SEC_Рассмотрение первых частей
+                                заявок</sectionName>
+                        </position>
+                    </noticeExtendField>
+                    <noticeExtendField>
+                        <extendField>
+                            <integrCode>needEnterAdditionalPricesProvisionDates</integrCode>
+                            <description>Указать информацию о сроках подачи дополнительных ценовых
+                                предложений</description>
+                            <type>BOOLEAN</type>
+                            <value>
+                                <boolean>false</boolean>
+                            </value>
+                        </extendField>
+                        <position>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>COMMISSION</tabName>
+                            <sectionOrdinal>7</sectionOrdinal>
+                            <sectionName>COMISSION_SEC_Подача дополнительных ценовых
+                                предложений</sectionName>
+                        </position>
+                    </noticeExtendField>
+                    <noticeExtendField>
+                        <extendField>
+                            <integrCode>considerationSecondPartDate</integrCode>
+                            <description>Дата рассмотрения вторых частей заявок</description>
+                            <type>DATE</type>
+                            <value>
+                                <date>2022-01-06</date>
+                            </value>
+                        </extendField>
+                        <extendField>
+                            <integrCode>considerationSecondPartOrder</integrCode>
+                            <description>Порядок рассмотрения вторых частей заявок</description>
+                            <type>TEXT</type>
+                            <value>
+                                <text>1</text>
+                            </value>
+                        </extendField>
+                        <position>
+                            <tabOrdinal>2</tabOrdinal>
+                            <tabName>COMMISSION</tabName>
+                            <sectionOrdinal>8</sectionOrdinal>
+                            <sectionName>COMISSION_SEC_Рассмотрение вторых частей
+                                заявок</sectionName>
+                        </position>
+                    </noticeExtendField>
+                </ns2:extendFields>
+                <ns2:lots>
+                    <lot>
+                        <guid>8f914e68-3d3a-4bd2-a14f-7cbfb346d023</guid>
+                        <ordinalNumber>1</ordinalNumber>
+                        <lotEditEnabled>false</lotEditEnabled>
+                        <lotData>
+                            <subject>закупка для теста soap</subject>
+                            <currency>
+                                <code>RUB</code>
+                                <digitalCode>643</digitalCode>
+                                <name>Российский рубль</name>
+                            </currency>
+                            <initialSum>350000</initialSum>
+                            <deliveryPlace>
+                                <state>Северо-Западный федеральный округ</state>
+                                <region>Калининградская обл</region>
+                                <regionOkato>27000000000</regionOkato>
+                                <address>Калининград</address>
+                            </deliveryPlace>
+                            <lotItems>
+                                <newCodes>true</newCodes>
+                                <lotItem>
+                                    <guid>2a93a8ca-63b3-0ec2-a997-dd393b390e04</guid>
+                                    <ordinalNumber>1</ordinalNumber>
+                                    <okpd2>
+                                        <code>01.11.11.111</code>
+                                        <name>Зерно озимой твердой пшеницы</name>
+                                    </okpd2>
+                                    <okved2>
+                                        <code>01.11.11</code>
+                                        <name>Выращивание пшеницы</name>
+                                    </okved2>
+                                </lotItem>
+                            </lotItems>
+                            <forSmallOrMiddle>true</forSmallOrMiddle>
+                            <excludePurchaseFromPlan>true</excludePurchaseFromPlan>
+                            <subcontractorsRequirement>false</subcontractorsRequirement>
+                            <ignoredPurchase>false</ignoredPurchase>
+                            <centralized>false</centralized>
+                        </lotData>
+                        <deliveryPlaceIndication>GL</deliveryPlaceIndication>
+                        <jointLotData>
+                            <jointLot>false</jointLot>
+                        </jointLotData>
+                        <cancelled>false</cancelled>
+                    </lot>
+                </ns2:lots>
+            </ns2:purchaseNoticeKESMBOData>
+        </ns2:item>
+    </ns2:body>
+</ns2:purchaseNoticeKESMBO>
